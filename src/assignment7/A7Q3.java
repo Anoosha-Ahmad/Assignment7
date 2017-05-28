@@ -14,7 +14,7 @@ public class A7Q3 {
 
     public static void factors(int number) {
         // outprint the number to the user 
-        System.out.println("The factors of the numbers " + number + " are: ");
+        System.out.println("The factors of the numbers" + number + " are: ");
         // creating a for loop to go through the numbers to find its factors (dividing the number by each number until it is divisible by itself)
         for (int i = 1; i <= number; i++) {
             double answer = number / i;
@@ -24,10 +24,7 @@ public class A7Q3 {
                 System.out.println((int) answer);
             }
 
-
         }
-
-
 
     }
 
@@ -45,8 +42,6 @@ public class A7Q3 {
 
         //refer back to the method to find all the factors
         factors(number);
-
-
 
     }
 }

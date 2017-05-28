@@ -13,7 +13,8 @@ import java.util.Scanner;
 public class A7Q2 {
     
         public static double examMark (double finalScore) {
-            
+        
+        //creating an if statement for the output of the letter grade according to the score inputterd by the user    
          char letter  = ' '; 
         if (finalScore >= 80) {
             letter = 'A';
@@ -26,6 +27,7 @@ public class A7Q2 {
         } else {
             letter = 'F';
         }
+        // return statement for the variable 
         return letter;
 
     }
@@ -45,7 +47,7 @@ public class A7Q2 {
         
         System.out.println(" ");
         System.out.println(examMark(finalScore));
-        // calcuate the percentage 
+        
         
         
         
